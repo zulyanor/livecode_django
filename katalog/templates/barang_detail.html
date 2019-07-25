@@ -1,0 +1,26 @@
+{% extends 'base/base_katalog.html' %}
+{% block content %}
+
+<div class="container">
+    <div class="row justify-content-center text-center detail_barang">
+        
+        <div class="col-7 barang_detail justify-content-center">
+            <div class="barang_detail_pic">
+                <img src="{{ item.gambar }}">
+            </div>
+            <br>
+            <div class="text-left barang_detail_nama">
+                {{ item.nama }}
+            </div>
+            <div class="text-left barang_detail_harga">
+                {{ item.harga }}
+            </div>            
+            <div class="text-left barang_desc">
+                {{ item.desc }}
+            </div>
+        </div>
+    
+    </div>
+</div>
+
+{% endblock %}

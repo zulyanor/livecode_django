@@ -1,0 +1,13 @@
+{% extends 'base/base_katalog.html' %}
+{% block content %}
+
+<div class="input_barang text-center">
+    <h2>Input Barang</h2>
+    <form method="POST" class="form_input"> {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="save-btn btn-default save_button">Input</button>
+    </form> 
+</div>
+
+
+{% endblock %}

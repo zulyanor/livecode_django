@@ -1,0 +1,63 @@
+.top_menu {
+    background-color: #00ccff;
+    color: white;
+    padding: 5px;
+}
+
+.list-inline-item {
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 0;
+}
+
+.toko_online {
+    margin: 0px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 0;
+}
+
+.home_content {
+    margin: 0 px;
+}
+
+.catalog_barang {
+    padding-top: 20px;
+}
+
+.list_barang {
+    margin: 10px 10px;
+    border: solid grey 1px;
+}
+
+.gambar_barang {
+    width: 100%;
+}
+
+.deskripsi_barang_home {
+    padding: 10px;
+}
+
+.nama_barang {
+    font-weight: bold;
+}
+
+.nama_barang,
+.harga_barang,
+.lihat_detail {
+    display: inline-block;
+}
+
+.barang_detail_pic {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.barang_detail {
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    border: grey solid 1px;
+}
